@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcumate-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form name="form1">
+            <div class="top1">
+                <h3>Calcumate</h3>
+                <div class="top-left">
+                    <button class="action-btn1">&#8722;</button>
+                    <button class="action-btn1"><i class="far fa-square"></i></button>
+                    <button class="action-btn2"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="top2">
+                <button id="btn1"><i class="fas fa-bars"></i></button onclick="window.close()">
+                <h4>Standard</h4>
+                <button id="btn2"><i class="fas fa-clock"></i></button>
+            </div>
+
+            <div class="space">
+                <input id="calc" type="text" dir="ltr" name="answer" placeholder="0"> <br> <br>
+            </div>
+
+            <div class="action">
+                <div class="first-row">
+                    <input class="btn-others" type="button" value="&#37;" onclick="form1.answer.value += '%' ">
+                    <input class="btn-others" type="button" value="&radic;" onclick="form1.answer.value = Math.sqrt(eval(form1.answer.value) )">
+                    <input class="btn-others" type="button" value="x²" onclick="form1.answer.value = Math.pow(eval(form1.answer.value), 2)">
+                    <input class="btn-others" type="button" value="1/x" onclick="form1.answer.value = 1/eval(form1.answer.value)">
+                </div>
+
+                <div class="first-row">
+                    <button class="btn-others" value="Clear All" onclick="form1.answer.value = ' ' " id="clear">CE</button>
+                    <button class="btn-others" value="Clear All" onclick="form1.answer.value = ' ' " id="clear">C</button>
+                    <input type="button" class="btn-others" value="&#x232b;" onclick="form1.answer.value = form1.answer.value.slice(0, -1);">
+                    <input class="btn-num" type="button" value="&#247;" onclick="form1.answer.value += '/' ">
+                </div>
+
+                <div class="first-row">
+                    <input class="btn-num" type="button" value="7" onclick="form1.answer.value += '7' ">
+                    <input class="btn-num" type="button" value="8" onclick="form1.answer.value += '8' ">
+                    <input class="btn-num" type="button" value="9" onclick="form1.answer.value += '9' ">
+                    <input class="btn-symbol" type="button" value="&#215;" onclick="form1.answer.value += '*' ">
+                </div>
+
+                <div class="first-row">
+                    <input class="btn-num" type="button" value="4" onclick="form1.answer.value += '4' ">
+                    <input class="btn-num" type="button" value="5" onclick="form1.answer.value += '5' ">
+                    <input class="btn-num" type="button" value="6" onclick="form1.answer.value += '6' ">
+                    <input class="btn-symbol" type="button" value="&#8722;" onclick="form1.answer.value += '-' ">
+                </div>
+
+                <div class="first-row">
+                    <input class="btn-num" type="button" value="1" onclick="form1.answer.value += '1' ">
+                    <input class="btn-num" type="button" value="2" onclick="form1.answer.value += '2' ">
+                    <input class="btn-num" type="button" value="3" onclick="form1.answer.value += '3' ">
+                    <input class="btn-symbol" type="button" value="&#43;" onclick="form1.answer.value += '+' ">
+                </div>
+
+                <div class="first-row">
+                    <input type="button" class="btn-others" value="&plusmn;" onclick="form1.answer.value = -1 * form1.answer.value">
+                    <input class="btn-num" type="button" value="0" onclick="form1.answer.value += '0' ">
+                    <input class="btn-others" type="button" value="." onclick="form1.answer.value += '.' ">
+                    <input class="btn-symbol" type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value) ">
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>

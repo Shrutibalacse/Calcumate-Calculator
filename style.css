@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(175, 124, 212);
+}
+.container {
+  background: url(bg15.jpg) no-repeat center center/cover;
+  background-color: #000;
+  text-align: center;
+  width: 28vw;
+  height: 82vh;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 3rem 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top1 {
+  display: flex;
+  height: 32px;
+  background-color: rgb(201, 164, 201);
+  opacity: 0.5;
+}
+.top1 h3 {
+  margin: 4px 8px;
+}
+.top-left {
+  left: 271px;
+  position: absolute;
+}
+.action-btn1 {
+  padding: 8px 12px;
+  border-radius: 0px;
+  border: none;
+  background: transparent;
+}
+.action-btn1:hover {
+  background: rgb(119, 119, 119);
+}
+.action-btn2 {
+  padding: 8px 12px;
+  border-radius: 0px;
+  border: none;
+  background: transparent;
+}
+.action-btn2:hover {
+  background: rgb(202, 61, 61);
+}
+/* end of top1 */
+
+.top2 {
+  border: 2px solid rgb(174, 94, 233);
+  height: 45px;
+  padding: 10px;
+}
+.top2 h4 {
+  margin: 2px 9px;
+  position: absolute;
+  left: 35px;
+}
+
+.space input {
+  height: 112px;
+  width: 380px;
+  background: transparent;
+  font-size: 1.5rem;
+  border: none;
+  color: rgb(2, 2, 2);
+}
+#btn1 {
+  float: left;
+  padding: 12px 13px;
+  right: 343px;
+  position: absolute;
+  top: 35px;
+  border-radius: 0px;
+  border: none;
+  background: transparent;
+}
+#btn1:hover {
+  background: rgb(173, 172, 172);
+}
+#btn2 {
+  padding: 11px 13px;
+  border-radius: 0px;
+  border: none;
+  background: transparent;
+  right: 2px;
+  position: absolute;
+  top: 35px;
+}
+#btn2:hover {
+  background: rgb(173, 172, 172);
+}
+/* end of top2 */
+
+.space {
+  height: 96px;
+}
+/* end of space */
+
+.action {
+  top: 15px;
+  position: relative;
+}
+/* making ALL THE BOXES OF SAME SIZE */
+.first-row {
+  display: flex;
+}
+.first-row button {
+  flex: 1;
+  /* color: white; */
+  color: #000;
+  font-weight: bold;
+}
+.first-row input {
+  flex: 1;
+  /* color: white; */
+  color: #000;
+  font-weight: bold;
+}
+/* TILL HERE */
+
+.btn-symbol {
+  padding: 21px;
+  background: none;
+}
+.btn-symbol:hover {
+  background-color: rgb(252, 121, 34);
+}
+.btn-num {
+  padding: 21px;
+  background: none;
+}
+
+.btn-num:hover {
+  background-color: rgb(99, 91, 85);
+}
+.btn-others {
+  padding: 21px;
+  background: none;
+
+}
+.btn-others:hover {
+  background-color: rgb(99, 91, 85);
+}

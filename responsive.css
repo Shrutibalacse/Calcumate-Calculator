@@ -1,0 +1,124 @@
+/* Extra small devices (phones, 600px and below) */
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      /* background-size: cover; */
+    }
+    
+    .top1 {
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .top-left {
+      margin-top: 10px;
+    }
+    
+    .action {
+      flex-wrap: wrap;
+    }
+    
+    .btn-others, .btn-num, .btn-symbol {
+      font-size: 18px;
+      margin: 5px;
+    }
+    
+    .first-row {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* Small devices (landscape phones, 768px and below) */
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      background-size: cover;
+    }
+    
+    .top1 {
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .top-left {
+      margin-top: 10px;
+    }
+    
+    .action {
+      flex-wrap: wrap;
+    }
+    
+    .btn-others, .btn-num, .btn-symbol {
+      font-size: 24px;
+      margin: 5px;
+    }
+    
+    .first-row {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* Medium devices (tablets, 992px and below) */
+  @media only screen and (max-width: 992px) {
+    .container {
+      width: 100%;
+      background-size: cover;
+    }
+    
+    .top1 {
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .top-left {
+      margin-top: 10px;
+    }
+    
+    .action {
+      flex-wrap: wrap;
+    }
+    
+    .btn-others, .btn-num, .btn-symbol {
+      font-size: 28px;
+      margin: 5px;
+    }
+    
+    .first-row {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* Large devices (desktops, 1200px and below) */
+  @media only screen and (max-width: 1200px) {
+    .container {
+      width: 100%;
+      background-size: cover;
+    }
+    
+    .top1 {
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .top-left {
+      margin-top: 10px;
+    }
+    
+    .action {
+      flex-wrap: wrap;
+    }
+    
+    .btn-others, .btn-num, .btn-symbol {
+      font-size: 32px;
+      margin: 5px;
+    }
+    
+    .first-row {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
